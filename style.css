@@ -1,0 +1,181 @@
+html{
+  background: #f2f2f2;
+}
+
+.head-container{
+  position: fixed;
+  display: flex;
+  height: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f8f2f2;
+}
+
+.item{
+  width: 200px;
+  margin: 5px;
+  flex: 1;
+}
+
+nav{
+  width: 40%;
+  display: flex;
+  text-align: center;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+
+.menu{
+  flex: 1;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.head{
+  margin: 5px;
+  text-align: center;
+}
+
+.icon{
+  display: flex;
+  margin-left: 20%;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width:10vw;
+  color: darkorange;
+  font-size: 15px;
+}
+
+.bodytext{
+  display: flex;
+}
+
+.video{
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.cel{
+  display: flex;
+  flex-direction: column;
+  height: 125px;
+  width: 43vw;
+}
+
+button{
+  margin-top: 10px;
+  background: gold;
+  font-size: 15px;
+  padding: 5px 20px;
+  transition-duration: 0.4s;
+}
+button:hover{
+  background: darkorange;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+  margin-bottom: 0px;
+}
+
+h3{
+  background: #DDDDDD;
+  padding: 15px;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+
+input[type="email"]{
+  font-size: 15px;
+  width: 250px;
+}
+
+.bodytext{
+  margin: 5px;
+  margin-top: 40px;
+}
+
+footer{
+  background: #DDDDDD;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* .footer-link{ */
+  /* text-align: right; */
+  /* list-style-type: none; */
+  /* display: inline-block; */
+/* } */
+
+.footer-link > li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.buy{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+
+.buy-item{
+  text-align: center;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+.money{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 650px){
+  .icon{
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 650px) and (min-width: 480px){
+  .icon{
+    margin-left: 3%;
+    width: 15vw; 
+  }
+  .cel{
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 480px){
+  .icon{
+    display: none;
+  }
+  .cel{
+    padding: 10px;
+    text-align: center;
+    margin-left: 23%;
+  }
+  nav{
+    width: 60%;
+  }
+  img{
+    width: 150px;
+  }
+}
